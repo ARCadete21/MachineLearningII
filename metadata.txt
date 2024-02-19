@@ -1,0 +1,38 @@
+METADATA
+
+customer_info
+● customer_id: Identifier of the customer.
+● customer_name: Name of the customer (contains degree level).
+● customer_birth_date: Birth date of the customer.
+● kids_home: Number of kids at home.
+● teen_home: Number of teens at home.
+● number_complaints: Number of complaints formally done by the customer.
+● location_latitude: Approximate location of the customer's home (Latitude).
+● location_longitude: Approximate location of the customer's home (Longitude).
+● distinct_stores_visited: Number of distinct stores visited by the customer.
+● loyalty_card_number: Number of the customer loyalty card.
+● lifetime_spent_groceries: Total value spent by the customer on groceries.
+● lifetime_spent_electronics: Total value spent by the customer on electronics.
+● lifetime_spent_vegetables: Total value spent by the customer on vegetables.
+● lifetime_spend_nonalcohol_drinks: Total value spent by the customer on
+non-alcoholic drinks.
+● lifetime_spend_alcohol_drinks: Total value spent by the customer on alcoholic
+drinks.
+● lifetime_spent_meat: Total value spent by the customer on meat.
+● lifetime_spent_fish: Total value spent by the customer on fish.
+● lifetime_spent_hygiene: Total value spent by the customer on hygiene.
+● lifetime_spent_videogames: Total value spent by the customer on video games.
+● lifetime_total_distinct_products: Number of distinct products bought by the
+customer (lifetime).
+● year_first_transaction: Year of the first transaction of the customer.
+● percentage_of_products_bought_promotion: Percentage of products that were
+bought with some promotion.
+● typical_hours: Typical hour when the customer visits the store.
+● latitude: Latitude of the Customer’s Address
+● longitude: Latitude of the Customer’s Address
+
+customer_basket
+● customer_id: Identifier of the customer. Can be used to connect this dataset with the
+customer_info one.
+● invoice_id: Identifier of the transaction.
+● list_of_goods: Products bought in the transaction in list format.
