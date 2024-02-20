@@ -48,5 +48,5 @@ This repository contains all the files created during the development of our pro
 - Joana Rosa | https://linkedin.com/in/joanarrosa/
 - Rita Centeno | https://www.linkedin.com/in/rita-centeno/
 - 
-### Teachers Feedback:
-"The project by Afonso, Joana and Rita was a high quality one. They could explain their reasoning on which clusters were the best and showcased deep knowledge in Unsupervised Learning. Also, they took great care in showcasing visuals and developing the report, with business acumen and showing that they care about the business impact." [Ivo Bernardo](https://www.linkedin.com/in/ivobernardo/)
+### Teacher's Feedback:
+*"The project by Afonso, Joana and Rita was a high quality one. They could explain their reasoning on which clusters were the best and showcased deep knowledge in Unsupervised Learning. Also, they took great care in showcasing visuals and developing the report, with business acumen and showing that they care about the business impact of Machine learning and Data Science. Congratulations on the work!"* [Ivo Bernardo](https://www.linkedin.com/in/ivobernardo/)
