@@ -3,7 +3,6 @@
 
 ##
 ### Project Description
-
 In this data science project, we aim to leverage statistical and machine learning techniques to perform customer segmentation for a retail business. The project involves analyzing two datasets - customer_info and customer_basket - containing information about customer demographics, spending habits, and purchase behavior. The goal is to identify distinct customer segments, analyze their behavior, and develop targeted marketing strategies to maximize customer engagement and loyalty.
 
 #### Objectives:
@@ -34,19 +33,33 @@ In this data science project, we aim to leverage statistical and machine learnin
 
 ### Repository Description
 This repository contains all the files created during the development of our project. In the following paragraphs will be a short description of how the repository is organized and what each file contains:
-- [Notebooks folder](notebooks): this folder contains the 3 jupyter notebooks sorted according to the project's workflow, the files constitute the project's main code, the outputs and the various visualizations that are fundamental for making customer segmentation decisions.
-- [Utils folder](utils): this folder contains the 3 py files for each notebook, each with the functions needed for the main code to work, so the code is more optimized and generalizable.
-- [Data folder](data): this folder contains the 2 csvs with the data used in the project and an excel file with additional product data.
-- [Results folder](results): this folder contains a csv file and another folder, the csv file is the end result of customer segmentation in a simplified dataset consisting only of the name of the customer and the cluster and their ids, in the folder there are several csvs, each one being the customer_info dataset filtered by a cluster.
-- [Report](Report.pdf): this file is the academic report of the project, containing the executive summary, the methodology used in the work and the conclusions drawn.
-- [Metadata](metadata.txt): this text file contains the metadata of all the used data in our project.
+- [Notebooks folder](notebooks): folder that contains the 3 jupyter notebooks sorted according to the project's workflow, the files constitute the project's main code, the outputs and the various visualizations that are fundamental for making customer segmentation decisions.
+- [Utils folder](utils): folder that contains the 3 py files for each notebook, each with the functions needed for the main code to work, so the code is more optimized and generalizable.
+- [Data folder](data): folder that contains the 2 csvs with the data used in the project and an excel file with additional product data.
+- [Results folder](results): folder that contains a csv file and another folder, the csv file is the end result of customer segmentation in a simplified dataset consisting only of the name of the customer and the cluster and their ids, in the folder there are several csvs, each one being the customer_info dataset filtered by a cluster.
+- [Report](Report.pdf): the academic report of the project, containing the executive summary, the methodology used in the work and the conclusions drawn.
+- [Metadata](metadata.txt): text file that contains the metadata of all the used data in our project.
 - [README](README.md): (this) file that contains the project and the repository descriptions.
 ##
 
+### Possible Improvements
+While the project successfully demonstrated effective customer segmentation for a retail business, there are several areas for potential improvement and future exploration:
+
+1. More In-Depth Cluster Profiling
+- Enhancing the depth of cluster profiling could provide a richer understanding of each customer segment. This involves delving deeper into the characteristics, behaviors, and needs of identified clusters. Conducting more granular analyses within clusters, such as sub-segmentation based on specific features, can offer a nuanced perspective and enable more targeted marketing strategies.
+
+2. Optimization and Generalization of Code
+- Further optimization and generalization of the code used for customer segmentation would contribute to improved efficiency and applicability. Implementing coding practices that enhance readability, modularity, and scalability can lead to a more robust and adaptable solution. Additionally, exploring parallel processing or distributed computing techniques may optimize the code's performance on larger datasets, ensuring scalability.
+
+3. Utilization of Additional Product Mapping Excel
+- The project introduced an additional product mapping Excel file, and further exploration of its potential impact on customer segmentation could be valuable, particularly in the realms of profiling and association rules. Integrating this mapping information into the analysis may offer a detailed understanding of how specific product categories influence customer behavior and preferences within each segment. By incorporating this mapping data into association rule mining, the project could uncover intricate patterns and relationships between different product types, providing actionable insights for targeted marketing strategies. Leveraging the additional product mapping specifically for profiling and association rules could refine the segmentation results and contribute to a more nuanced and effective customer engagement approach.
+##
+
 ### Project Developed by:
-- Afonso Cadete | https://www.linkedin.com/in/afonso-roque-cadete/
-- Joana Rosa | https://linkedin.com/in/joanarrosa/
-- Rita Centeno | https://www.linkedin.com/in/rita-centeno/
-- 
+- [Afonso Cadete](https://www.linkedin.com/in/afonso-roque-cadete/)
+- [Joana Rosa](https://linkedin.com/in/joanarrosa/)
+- [Rita Centeno](https://www.linkedin.com/in/rita-centeno/)
+##
+
 ### Teacher's Feedback:
 *"The project by Afonso, Joana and Rita was a high quality one. They could explain their reasoning on which clusters were the best and showcased deep knowledge in Unsupervised Learning. Also, they took great care in showcasing visuals and developing the report, with business acumen and showing that they care about the business impact of Machine learning and Data Science. Congratulations on the work!"* [Ivo Bernardo](https://www.linkedin.com/in/ivobernardo/)
